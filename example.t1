@@ -1,0 +1,23 @@
+mudrinchu "Namaskaram! Idi Telugu Programming Bhasha."
+
+# Addition Example
+a = 10
+b = 20
+c = a kudika b
+mudrinchu "Mothe:", c
+
+# Subtraction Example
+d = a thisivetha b
+mudrinchu "Vetharekamu:", d
+
+# Conditional Example
+okavela c > 25:
+    mudrinchu "C is greater than 25"
+
+# While Loop Example
+count = 5
+ayithe count > 0:
+    mudrinchu "Count:", count
+    count thisivetha= 1
+
+mudrinchu "TeluguLang execution complete!"
