@@ -10,6 +10,12 @@ keywords = {
     "apey": "break",
     "kudika": "+",
     "thisivetha": "-",
+    "cheyinchu": "def",  # Function definition
+    "pampu": "input",  # User input
+    "lekka": "len",  # Length of list
+    "modhati": "and",  # Logical AND
+    "ledu": "or",  # Logical OR
+    "kaadu": "not",  # Logical NOT
 }
 
 def translate_line(line):
@@ -33,3 +39,4 @@ if __name__ == "__main__":
         with open(sys.argv[1], "r", encoding="utf-8") as file:
             code = file.read()
             run_telugulang(code)
+
