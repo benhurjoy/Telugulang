@@ -16,6 +16,10 @@ keywords = {
     "modhati": "and",  # Logical AND
     "ledu": "or",  # Logical OR
     "kaadu": "not",  # Logical NOT
+    "file_open": "open",  # File Handling - Open File
+    "file_chaduvu": "read",  # File Handling - Read File
+    "file_raya": "write",  # File Handling - Write File
+    "file_mooyu": "close",  # File Handling - Close File
 }
 
 def translate_line(line):
@@ -39,4 +43,5 @@ if __name__ == "__main__":
         with open(sys.argv[1], "r", encoding="utf-8") as file:
             code = file.read()
             run_telugulang(code)
+
 
