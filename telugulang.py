@@ -12,14 +12,20 @@ keywords = {
     "thisivetha": "-",
     "cheyinchu": "def",  # Function definition
     "pampu": "input",  # User input
-    "podavu": "len",  # Length of list
+    "lekka": "len",  # Length of list
     "modhati": "and",  # Logical AND
     "ledu": "or",  # Logical OR
     "kaadu": "not",  # Logical NOT
-    "file_thervu": "thervu",  # File Handling - Open File
+    "file_thervu": "open",  # File Handling - Open File
     "file_chaduvu": "read",  # File Handling - Read File
     "file_rayu": "write",  # File Handling - Write File
     "file_muyu": "close",  # File Handling - Close File
+    "prayathninchu": "try",  # Exception Handling - Try
+    "minyaimpu": "except",  # Exception Handling - Except
+    "vargam":"class"# opp-class defination
+    "vastuvu":"self"#opp-object defination
+    "listu"="list" #list
+    "nighantuvu": "dict"  # Dictionaries
 }
 
 def translate_line(line):
@@ -34,14 +40,12 @@ def run_telugulang(code):
     try:
         exec(translated_code)
     except Exception as e:
-        print("Error:", e)
+        print("పొరపాటు జరిగింది:", e)  # Error message in Telugu
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python telugulang.py <filename.tl>")
+        print("వినియోగం: python telugulang.py <filename.tl>")
     else:
         with open(sys.argv[1], "r", encoding="utf-8") as file:
             code = file.read()
             run_telugulang(code)
-
-
