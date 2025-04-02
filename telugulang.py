@@ -24,7 +24,7 @@ keywords = {
     "minyaimpu": "except",  # Exception Handling - Except
     "vargam":"class"# opp-class defination
     "vastuvu":"self"#opp-object defination
-    "listu"="list" #list
+    "listu":"list" #list
     "nighantuvu": "dict"  # Dictionaries
 }
 
