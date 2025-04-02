@@ -22,9 +22,9 @@ keywords = {
     "file_muyu": "close",  # File Handling - Close File
     "prayathninchu": "try",  # Exception Handling - Try
     "minyaimpu": "except",  # Exception Handling - Except
-    "vargam":"class"# opp-class defination
-    "vastuvu":"self"#opp-object defination
-    "listu":"list" #list
+    "vargam":"class",# opp-class defination
+    "vastuvu":"self",#opp-object defination
+    "listu":"list", #list
     "nighantuvu": "dict"  # Dictionaries
 }
 
